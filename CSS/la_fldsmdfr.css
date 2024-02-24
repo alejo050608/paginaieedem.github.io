@@ -1,0 +1,49 @@
+html, .directivos {
+    height: 100%;
+}
+.directivos:before{
+    text-align: center;
+}
+.directivos {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align:middle;
+}
+.botones {
+    background: #1AAB8A;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 80px;
+    width: 900px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+.botones:hover{
+    background: #fff;
+    color: #1AAB8A;
+}
+.botones:before, .botones:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #1AAB8A;
+    transition: 400ms ease all;
+}
+.botones:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+.botones:hover:before, .botones:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}

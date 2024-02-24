@@ -1,0 +1,114 @@
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 3% 0 0 36%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+  margin-top: -12px;
+}
+.imgd {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  margin-top: -61%;
+}
+.card {
+  background: #222;
+  height: 500px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+.card p {
+  margin-bottom: 1.8em;
+}
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+.card .back a {
+  padding: 0.3em 0.5em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+h2 {
+  margin-top: 5px;
+  color: #221818;
+  font-size: 19px;
+}
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+.card .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+.cardBox .card .back {
+  background: rgb(135, 141, 153);
+}
+  
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card {
+    height: 260px;
+  }
+}
+.rector {
+  margin-top: 40px;
+  margin-left: 620px;
+}
+.coord {
+  margin-top: 40px;
+  margin-left: 560px;
+}
+.docentes {
+  margin-top: 40px;
+  margin-left: 590px;
+}
+.info {
+  color: black;
+  font-size: 18px;
+}

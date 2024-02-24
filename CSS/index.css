@@ -1,0 +1,32 @@
+.dem {
+    margin-left: 65px;
+    cursor: pointer; 
+    height: 150px;
+    padding-top: 30px;
+}
+.letradem {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.letradem2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+}
+.banderadem {
+    margin-top: 38px;
+    height: 130px;
+}
+*.container {
+    background-image: linear-gradient( rgb(98, 169, 116), rgb(248, 240, 240), rgb(222, 161, 161));
+    margin: -28px;
+    display: flex;
+}   /*rgb(17, 151, 53) color reemplazable de verde*/m
+.letradem {
+    padding-bottom: -45px
+}
+.letras {
+    margin-left: 117px;
+    margin-right: 117px;
+}
